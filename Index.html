@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Videojuegos</title>
+</head>
+<style>
+  .FormularioDeContacto {
+    border: 3px solid #0383fc; 
+    margin: 100px auto; 
+    width: 325px; 
+    border-radius: 15px;
+    padding: 3%;
+    background-image: url("legend-of-zelda-breath-of-the-wild.avif");
+    background-size: cover; 
+    background-position: center;
+  }
+  input {
+    opacity: 40%;
+  }
+  
+</style>
+<body>
+  <h1>Blog de Videojuegos</h1>
+
+  <img src="cropped-Logo-Santa-Gema.png" alt="Logotipo del colegio" width="200">
+
+  <p>En este blog se van a tocar los videojuegos que más me han impactado a mí desde que empecé a jugar hasta ahora.</p>
+
+  <p>Visita <a href="https://www.ign.com" target="_blank">IGN</a> para enterarte de todas las noticias actuales y tutoriales por si se te atasca algun juego.</p>
+
+  <nav>
+    <ul>
+      <li><a href="#favoritos">Mis favoritos</a></li>
+      <li><a href="#recomendaciones">Recomendaciones</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="Géneros">Los generos de videojuegos que más se juegan son:</h2>
+
+   <!-- Lista desordenada -->
+  <ul>
+    <li><a href="https://www.hobbyconsolas.com/videojuegos/top-juegos/accion">Acción</a></li>
+    <li><a href="https://www.hobbyconsolas.com/videojuegos/top-juegos/aventura">Aventura</a></li>
+    <li><a href="https://vandal.elespanol.com/reportaje/los-mejores-juegos-indies-de-todos-los-tiempos">Indie</a></li>
+  </ul>
+
+  <h2 id="favoritos" id="recomendaciones">Mis recomendaciones y a la vez mis favoritos. Todo lo que necesitas saber está en esas páginas.</h2>
+
+  <!-- Lista ordenada -->
+  <ol>
+    <li><a href="https://zelda.fandom.com/es/wiki/The_Legend_of_Zelda_Wiki">The Legend of Zelda</a></li>
+    <li><a href="https://godofwar.fandom.com/es/wiki/God_of_War">God of wat</a></li>
+    <li><a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki">Hollow Knight</a></li>
+  </ol>
+
+<h2>Los juegos tienes varios formatos como:</h2>
+
+  <!-- Lista de definiciones -->
+  <dl>
+    <dt><strong>RPG</strong></dt>
+    <dd>Juego de rol donde desarrollas personajes y narrativa.</dd>
+    <dt><strong>FPS</strong></dt>
+    <dd>Juego de disparos en primera persona.</dd>
+    <dt><strong>Mundo abierto</strong></dt>
+    <dd>Juegos en los que la historia no es lineal y puedes escoger el rumbo que tu quieras como lo pueden ser el Zelda Breath of the Wild.</dd>
+  </dl>
+
+  <form class="FormularioDeContacto">
+    <h2 id="contacto">Formulario de contacto</h2>
+    <label for="nombre">Nombre y apellidos:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="fecha">Fecha de nacimiento:</label><br>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
